@@ -1,7 +1,7 @@
 # Pandemic_DAW
 Proyecto de DAW
 
-   Este es el proyecto de curso del Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web que hice junto a dos compañeros de clase.
+   Este es el proyecto del primer curso del Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web que hice junto a dos compañeros de clase.
    
    El proyecto se basó en que cada grupo debía hacer un juego, dicho juego debía ser una versión propia del juego de mesa "Pandemic".
    
