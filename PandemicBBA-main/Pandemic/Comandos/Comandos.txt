@@ -1,0 +1,74 @@
+TEMPORIZADOR
+	static in contador = 0;
+	
+	public static void main(String() args){
+
+		int velocidad = 2; // Velocidad en segundos
+
+		Timer nombre
+		TimerTask nombre;
+		
+		int velmil = velocidad*1000;
+		
+		objeto nombre = new objeto();
+		objeto.setVisible(true);
+		
+		tarea = new TimerTask() {
+		@Override
+		public void run() {
+			Icon icono;
+			switch(contador) {
+				case 0:
+					contador = 1;
+					icono = new ImageIcon(getClass().getResource("URL")};
+					nombre.jLabel1.setIcon(icono);
+					break;
+				
+				case 1:
+					contador = 2;
+					icono = new ImageIcon(getClass().getResource("URL")};
+					nombre.jLabel1.setIcon(icono);
+					break;
+					
+				case 2:
+					contador = 3;
+					icono = new ImageIcon(getClass().getResource("URL")};
+					nombre.jLabel1.setIcon(icono);
+					break;
+				}
+				
+				timer = new Timer();
+				
+				timer.scheduleAtFixedRate(tarea, velmil, velmil);
+				
+			}		
+		};
+	
+	}
+	
+	
+PROBAR ACTUALIZADOR SIN PARPADEO
+
+	import javax.swing.*;
+
+	public class MiJFrame extends JFrame{
+
+		public MiJFrame(){
+		
+			super("Esta ventana es de muestra");
+			
+			setSize(800,600);
+			setDefaultCloseOperation(EXIT_ON_CLOSE);
+			setVisible(true);
+		}
+			
+		/* Este es el método que te interesa*/
+		
+		public void actualizarPantalla(){
+		
+			SwingUtilities.updateTreeUI(this);
+			this.validateTree();
+			
+		}
+
+	}
